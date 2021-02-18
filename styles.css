@@ -9,3 +9,18 @@
   i {
       font-size:42px;
   }
+  video {
+      max-width:75%;
+  }
+meter {
+    height:50px;
+    width:500px;
+}
+progress {
+    height:50px;
+    width:75%;
+}
+pre span {
+
+    color:rgb(31, 85, 233);
+}
