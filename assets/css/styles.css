@@ -12,26 +12,23 @@
   }
 
   body {
-      font-family: 'Inconsolata';
+      font-family: Roboto;
       line-height: 160%;
       margin:0 0 150px 0;
+      font-weight: 400;
 
   }
 
   /* CSS for the header part */
   header,footer {
-     
-    background-color: rgb(241, 190, 95);
     background: #f3d36b;
-    ;
     padding: 20px;
     text-align: center;
   }
  #title-1 {
      font-size: 44px;
      text-transform: uppercase;
-   
-
+     margin:35px auto;
  }
   #washera {
      
@@ -51,12 +48,14 @@
      
       display: inline-block;
       margin-right: 15px;
+     
   }
 
   .menu-list li a {
-      color: white;
+      color:black;
       text-decoration: none;
       padding:3px;
+      font-weight: 900;
   }
   .active {
       border-bottom:3px solid red;
